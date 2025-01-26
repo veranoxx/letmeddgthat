@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Let Me DuckDuckGo That For You</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="If your friend cannot DuckDuckGo their question themselves: Let Me DDG That will show them how to.">
+    <meta name="keywords" content="DuckDuckGo, Search, Engine, Search Engine, Let Me DDG That, Let Me DuckDuckGo That For You, Let Me DDG That For You, Let Me DuckDuckGo That">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="duckduckgo.svg" alt="DuckDuckGo Logo">
+        </div>
+        <div class="title">
+            <h1>Let Me DDG That For You</h1>
+        </div>
+        <div class="search-bar">
+            <form action="#" method="GET">
+                <input type="text" id="search-input" readonly>
+                <button type="submit" id="search-btn">
+                    <svg class="submitsearch" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490.4 490.4" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M484.1,454.796l-110.5-110.6c29.8-36.3,47.6-82.8,47.6-133.4c0-116.3-94.3-210.6-210.6-210.6S0,94.496,0,210.796 s94.3,210.6,210.6,210.6c50.8,0,97.4-18,133.8-48l110.5,110.5c12.9,11.8,25,4.2,29.2,0C492.5,475.596,492.5,463.096,484.1,454.796z M41.1,210.796c0-93.6,75.9-169.5,169.5-169.5s169.6,75.9,169.6,169.5s-75.9,169.5-169.5,169.5S41.1,304.396,41.1,210.796z"></path> </g> </g></svg>
+                </button>
+            </form>
+        </div>
+        <div class="create">
+            <button class="create-link">Create Link</button>
+            <input type="checkbox" id="hide-query"><label for="hide-query">Hide Query in Link</label>
+            <div class="output"></div>
+            <div class="buttons"><button class="copy-output">Copy Link</button><button class="preview-link">Preview</button></div>
+        </div>
+    </div>
+
+    <div class="instructions">Step 1: Click the search box</div>
+
+    <img src="cursor.png" id="custom-cursor">
+    <img src="circle.png" id="touchscreen-cursor">
+
+    <div class="footer">
+        <p>Created by Veranoxx</p>
+        <p class="copyright-disclaimer">This site is not affiliated with or endorsed by DuckDuckGo. All trademarks, logos, and brand names are the property of their respective owners.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
