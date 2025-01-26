@@ -1,0 +1,13 @@
+[
+    {
+
+      "_comment": "I do not own this profanity list. Download it here (Copright 2021 David Sojevic): https://github.com/dsojevic/profanity-list/blob/main/en.json",
+      
+      "id": "example",
+      "match": "example|eggsample",
+      "tags": [
+        "example"
+      ],
+      "severity": 4
+    }
+]
