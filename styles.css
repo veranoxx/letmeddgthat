@@ -218,3 +218,43 @@ button.copy-output:active, button.preview-link:active {
 .buttons {
     display: none;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #111111;
+      color: #eee;
+    }
+    input[type="text"] {
+      border: 2px solid #333;
+      background-color: #222;
+      color: #fff;
+      box-shadow: 0 0.16rem 0.375rem rgba(0, 0, 0, 0.8);
+    }
+    .title {
+      color: #eee;
+    }
+    .instructions {
+      background-color: #333;
+      color: #eee;
+    }
+    .output {
+      background-color: #333;
+      color: #eee;
+    }
+    .create-link {
+      background-color: #555;
+    }
+    button.copy-output, button.preview-link {
+      background-color: #1a73e8;
+    }
+    label[for="hide-query"] {
+      color: #eee;
+    }
+    .footer {
+      color: #aaa;
+    }
+    .copyright-disclaimer {
+      color: #bbb;
+    }
+  }
+  
